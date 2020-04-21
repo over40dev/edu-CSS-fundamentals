@@ -11,3 +11,4 @@
 ### Challenges done in CodePen
 
 1. [Ch01](https://codepen.io/over40dev/pen/qBOaVvy?editors=1100)
+2. [Ch02](https://codepen.io/over40dev/pen/MWajrEQ)
