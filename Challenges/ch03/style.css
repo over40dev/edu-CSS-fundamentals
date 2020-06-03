@@ -1,0 +1,48 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.container {
+  width: 1440px;
+  max-height: 700px;
+  background-color: #23424A;
+  margin: 0;
+  padding: 148px 100px;
+  overflow: hidden;
+}
+
+.content {
+  width: 50%;
+  margin: 10px 0;
+  color: white;
+  padding-right: 10px;
+}
+
+.title {
+  margin-top: 0;
+  font-size: 3rem;
+  font-family: Roboto;
+  font-weight: 900;
+  line-height: 3.5em;
+}
+
+p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1.325rem;
+  line-height: 1.5em;
+}
+
+button {
+  margin: 30px 0 10px 0;
+  width: 285px;
+  height: 63px;
+  color: #072A2D;
+  background-color: #38CFD9;
+  border-radius: 31.5px;
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
