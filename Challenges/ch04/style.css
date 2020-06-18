@@ -31,11 +31,17 @@ body {
 
 h1 {
     font-size: 3rem;
+    font-weight: 900;
 }
 
 h2 {
     font-size: 2rem;
     font-weight: 900;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 400;  
 }
 
 .container {
@@ -45,8 +51,20 @@ h2 {
     padding: 100px 0;
 }
 
-.content h2 {
+.three-col {
+    padding: 3em 0;
+    text-align: center;
+}
+
+.three-col h2 {
     color: #87629A;
+}
+
+.two-col {
+    text-align: center;
+    padding: 3em 0;
+    background-color: #23424A;
+    color: white;
 }
 
 .row {
@@ -60,7 +78,6 @@ h2 {
 .col {
     /* these are now flex items */
     flex: 1;
-    text-align: center;
 }
 
 .col + .col {
@@ -77,15 +94,10 @@ h2 {
 }
 
 .hero p {
-    font-size: 1.5rem;
     margin-bottom: 3em;
 }
 
-.footer {
-    padding: 100px 0;
-    background-color: #23424A;
-    color: white;
-}
+
 
 .btn {
     display: inline-block;
